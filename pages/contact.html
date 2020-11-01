@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;700&family=Quicksand:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="../public/styles/contact.css">
+        <link rel="stylesheet" href="../public/styles/responsive/responsive-contact.css">
+        <link rel="stylesheet" href="../public/styles/main.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Laranjal</title>
+    </head>
+    <body>
+
+        <div id="menu">
+            <nav>
+                <h1><img src="../public/assets/orange-icon.svg" alt="">LARANJAL</h1>
+                <button id="show-menu">
+                    <i class="material-icons" >menu</i>
+                </button>
+            </nav>
+
+            <div id="switched-menu">
+                <aside>
+                    <nav>
+                        <ul>
+                            <h3>Menu</h3>
+                            <button id="hide-menu">
+                                <i class="material-icons">close</i>
+                            </button>
+                            <li><a href="">Início</a></li>
+                            <li><a href="">Sobre</a></li>
+                            <li><a href="">Onde comprar</a></li>
+                            <li><a href="">Contato</a></li>
+                        </ul>
+                    </nav>
+                </aside>
+            </div>
+        </div>
+
+        <div id="contact">
+            <h1>CONTATE-NOS</h1>
+            <p>
+                Dê uma paradinha na nossa barraca ou em uma das
+                lojas de produtos naturais listadas para pegar uma amostra grátis
+            </p>
+            <address>
+                <h3>Laranjal</h3>
+                Avenida Pasteur 520, Rondônia <br>
+                Email: institucional@laranjal.com <br>
+                Telefone: 4002-8922
+            </address>
+        </div>
+
+        <div id="contact-form">
+            <form action="" id="form">
+                <fieldset>
+                    <label for="user-name">Nome</label>
+                    <input type="text" name="user-name" id="user-name">
+                </fieldset>
+
+                <fieldset>
+                    <label for="user-email">Email</label>
+                    <input type="email" name="user-email" id="user-email" >
+                </fieldset>
+
+                <fieldset>
+                    <label for="user-message">Mensagem</label>
+                    <textarea name="user-message" id="user-message" cols="30" rows="10"></textarea>
+                </fieldset>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+
+        <footer>
+            <h3>Laranjal. Colhido na hora em 2020</h3>
+        </footer>
+
+        <script src="../public/scripts/hide-show-menu.js"></script>
+    </body>
+</html>

@@ -1,0 +1,31 @@
+@media(min-width: 740px) {
+    #contact-form,
+    #contact {
+        width: 98%;
+        align-items: center;
+        text-align: center;
+    }
+
+    #contact-form fieldset input, fieldset label, fieldset textarea {
+        margin-left: 25%;
+        max-width: 50%;
+        text-align: center;
+    }
+    
+    #contact-form::before {
+        content:" ";
+        display: block;
+        margin-left: 13vw;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+        border-top: 2px solid rgba(73, 73, 73, 0.425);
+        background: none;
+        width: 75%; 
+    }
+    
+    #contact-form fieldset label {
+        font-size: 20px;
+        margin-top: 5vh;
+        margin-bottom: 20px;
+    }
+}

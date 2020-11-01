@@ -1,0 +1,215 @@
+body {
+    margin: 0;
+}
+
+#menu {
+    width: 100%;
+    background-color: #efef;
+    padding: 15px 5px 0;
+    box-sizing: border-box;
+    border-bottom: 2px solid rgb(233, 160, 4);
+}
+
+#menu nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#menu nav h1 {
+    font-family: 'Quicksand', cursive;
+    font-weight: 500;
+    color: darkorange;
+    font-size: 30px;
+    line-height: 5px;
+}
+
+#menu nav  img {
+    width: 10vw;
+    margin-right: 10px;
+    min-width: 20px;
+    max-width: 40px;
+}
+
+#switched-menu {
+    display: none;
+    width: 70vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #efef;
+    border-left: 2.4px solid rgba(66, 65, 65, 0.548);
+}
+
+#switched-menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    list-style: none;
+}
+
+#switched-menu ul li {
+    padding: 2vh 0;
+    width:100%;
+    border-top: 1.8px solid rgb(233, 160, 4);
+}  
+
+#switched-menu ul li:last-of-type {
+    border-bottom: 1.8px solid rgb(233, 160, 4);
+}
+
+#switched-menu ul li a {
+    width: 100%;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(129, 128, 128);
+    font-family: 'Quicksand', cursive;
+    font-weight: 500;
+    transition: 200ms;
+}
+
+#switched-menu ul h3 {
+    font-size: 26px;
+    transform: translateX(-20px);
+    line-height: 12px;
+    text-decoration: none;
+    color: rgba(15, 15, 15, 0.753);
+    font-family: 'Quicksand', cursive;
+    font-weight: 500;
+}
+
+#switched-menu ul li a:hover {
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgb(235, 182, 102);
+    color: whitesmoke;
+}
+
+#switched-menu ul button {
+    margin-bottom: 120px;
+    align-self: center;
+}
+
+#switched-menu ul button i {
+    color: rgb(114, 112, 112);
+    position: fixed;
+    top: 35px;
+    right: 15px;
+    font-size: 28px;
+}
+
+
+footer {
+    width: 100%;
+    height: 10vh;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10vh;
+    border-top: 0.5px solid rgb(233, 160, 4);
+}
+
+footer h3 {
+    color: rgb(36, 34, 34);
+    font-family: 'Quicksand', cursive;
+    font-weight: lighter;
+}
+
+button:focus{
+    outline: thin dotted;
+        outline: 0px auto -webkit-focus-ring-color;
+        outline-offset: 0px;
+    }
+
+button {
+    background: none;
+    border: 0;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f3c395b6;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background: #F4F4F4;
+}
+::-webkit-scrollbar-thumb {
+    background: #ec9421;
+}
+
+/* 
+    Desktop menu styles
+*/
+
+@media (min-width: 740px) {
+    #menu {
+        border: 0;
+    }
+    
+    #menu i.material-icons, #menu h3{
+        display: none;
+        cursor: not-allowed;
+    }
+    
+    #menu nav{
+        justify-content: center;
+    }
+    
+    #menu nav h1 {
+        font-size: 52px;
+    }
+    
+    #menu::after {
+        content:" ";
+        display: block;
+        margin-left: 25vw;
+        border-top: 2.4px solid rgb(233, 160, 4);
+        background: none;
+        width: 50%; 
+    }
+
+    #switched-menu {
+        margin: 0;
+        width: 97.9%;
+        display: block;
+        position: inherit;
+        height: 20vh;
+        border: 0;
+    }
+
+    #switched-menu ul {
+        flex-direction: row;
+    }
+    
+    #switched-menu ul li{
+        display: inline;
+        border: 0;
+        width: 100%;
+        margin: 0 50px;
+        padding: 0;
+    }
+    
+    #switched-menu ul li:last-of-type {
+        border: 0;
+    }
+
+    #switched-menu ul li a {
+        font-size: 24px;
+        width: 100%;
+    }
+    
+    #switched-menu ul li a:hover {
+        background: none;
+        color: rgb(245, 161, 6);
+        border-radius: 0px;
+        padding: 0;
+        opacity: 0.7;
+    }
+}

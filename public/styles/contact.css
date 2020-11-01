@@ -1,0 +1,89 @@
+#contact {
+    width: 90%;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+#contact h1 {
+    font-family: 'Darker Grotesque';
+    font-weight: normal;
+    font-size: 62px;
+    color:rgba(39, 39, 39, 0.87);
+}
+
+#contact p {
+    font-family: 'Quicksand', cursive;
+    font-size: 18px;
+    width: 100%;
+    font-weight: lighter;
+    line-height: 30px;
+}
+
+#contact address {
+    font-style: unset;
+    font-family: 'Quicksand', cursive;
+    margin-bottom: 10vh;
+    line-height: 25px;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.753);
+    font-size: 18px;
+}
+
+
+#contact address h3 {
+    font-family: 'Darker Grotesque';
+    font-size: 26px;
+    line-height: 10px;
+    font-weight: 500;
+    color:rgba(63, 63, 63, 0.712);
+}
+
+#contact-form {
+    width: 100%;
+    margin-bottom: 3vh;
+}
+
+#contact-form fieldset {
+    display: flex;
+    flex-direction: column;
+    border: 0;
+}
+
+#contact-form fieldset input {
+    height: 35px;
+    border: 1px solid rgba(46, 45, 45, 0.288);
+    font-size: 16.6px;
+    font-family: 'Quicksand', cursive;
+    color: rgba(17, 17, 17, 0.801);
+    width: 100%;
+}
+
+#contact-form fieldset label {
+    font-family: 'Quicksand', cursive;
+    font-size: 16.6px;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.863);
+    margin-bottom: 5px;
+}
+
+#contact-form fieldset #user-message {
+    height: 150px;
+    resize: none;
+    font-size: 18px;
+    color: rgba(63, 63, 63, 0.712);
+    font-family: 'Quicksand',cursive;
+    font-weight: normal;
+    width: 100%;
+}
+
+#contact-form button {
+    border: 1px solid rgba(0, 0, 0, 0.856);
+    padding: 12px 25px;
+    margin-left: 13.5px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.863);
+}

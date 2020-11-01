@@ -1,0 +1,22 @@
+@media (min-width: 740px) {
+    #main-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    #main-content h1 {
+        font-size: 72px;
+        line-height: 70px;
+        font-weight: bold;
+        border-right: 3px solid rgb(245, 161, 6);
+        padding-right: 15px;
+    }
+
+    #main-content p {
+        font-size: 28px;
+        line-height: inherit;
+        margin-left: 50px;
+    }
+}

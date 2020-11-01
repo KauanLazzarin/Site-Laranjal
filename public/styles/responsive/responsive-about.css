@@ -1,0 +1,33 @@
+@media (min-width: 740px) {
+    #main-content {
+        width: 80%;
+        display: grid;
+        column-gap: 100px;
+        padding: 25px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            'title' 'image'
+        ;
+    }
+
+    #main-content h1::after {
+        content:" ";
+        display: block;
+        margin: 0;
+        border: 0;
+        background: none;
+        width: 0%; 
+    }
+
+    #main-content h1 {
+        font-size: 90px;
+        grid-area: title;
+        transform: translateY(-60px);
+    }
+
+    #main-content img {
+        max-width: 470px;
+        width: 100%;
+        grid-area: image;
+    }
+}
