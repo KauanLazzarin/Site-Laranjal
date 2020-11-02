@@ -8,7 +8,7 @@ async function createSchedule (req, res) {
     try {
         await Register.create(req.body);
         console.log('dados adiionados com sucesso! dados:', req.body);
-        return res.render('index.html');
+        return res.redirect('/confirmation');
     } catch (error) {
         console.log(error);
     };

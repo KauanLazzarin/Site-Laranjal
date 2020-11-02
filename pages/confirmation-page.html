@@ -3,9 +3,9 @@
     <head>
         <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;700&family=Quicksand:wght@300;400;500;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link rel="stylesheet" href="../public/styles/contact.css">
-        <link rel="stylesheet" href="../public/styles/responsive/responsive-contact.css">
+        <link rel="stylesheet" href="../public/styles/confirmation-page.css">
         <link rel="stylesheet" href="../public/styles/main.css">
+        <link rel="stylesheet" href="../public/styles/responsive/responsive-confirmation-page.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Laranjal</title>
@@ -39,44 +39,15 @@
             </div>
         </div>
 
-        <div id="contact">
-            <h1>CONTATE-NOS</h1>
-            <p>
-                Dê uma paradinha na nossa barraca ou em uma das
-                lojas de produtos naturais listadas para pegar uma amostra grátis
-            </p>
-            <address>
-                <h3>Laranjal</h3>
-                Avenida Pasteur 520, Rondônia <br>
-                Email: institucional@laranjal.com <br>
-                Telefone: 4002-8922
-            </address>
-        </div>
-
-        <div id="contact-form">
-            <form action="/contact" method="POST" id="form">
-                <fieldset>
-                    <label for="name">Nome</label>
-                    <input type="text" name="name" id="name"required>
-                </fieldset>
-
-                <fieldset>
-                    <label for="mail">Email</label>
-                    <input type="email" name="mail" id="mail" required>
-                </fieldset>
-
-                <fieldset>
-                    <label for="message">Mensagem</label>
-                    <textarea name="message" id="message" cols="30" rows="10" required></textarea>
-                </fieldset>
-                <button type="submit">Enviar</button>
-            </form>
+        <div id="confirmation">
+            <h1>Sua mensagem foi enviada com sucesso! <br> Fique atento ao seu e-mail, nossa resposta chegará por lá ;)</h1>
+            <img src="./../public/assets/confirmation.svg" alt="">
+            <a href="/">Voltar à página inicial</a>
         </div>
 
         <footer>
             <h3>Laranjal. Colhido na hora em 2020</h3>
         </footer>
-
         <script src="../public/scripts/hide-show-menu.js"></script>
     </body>
 </html>

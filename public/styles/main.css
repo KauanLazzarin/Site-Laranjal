@@ -153,11 +153,17 @@ button {
         border: 0;
     }
     
-    #menu i.material-icons, #menu h3{
+    #menu #menu-icon, #menu h3{
         display: none;
         cursor: not-allowed;
     }
     
+    #dark-mode-button {
+        font-size: 48px;
+        cursor: pointer;
+        user-select: none;
+    }
+
     #menu nav{
         justify-content: center;
     }

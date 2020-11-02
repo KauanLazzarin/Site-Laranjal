@@ -12,6 +12,12 @@
         text-align: center;
     }
     
+    #contact-form fieldset textarea {
+        font-size: 20px;
+        font-family: 'Quicksand', cursive;
+        color: rgb(54, 53, 53);
+    }
+
     #contact-form::before {
         content:" ";
         display: block;

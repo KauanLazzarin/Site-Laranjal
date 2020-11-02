@@ -1,0 +1,43 @@
+#confirmation {
+    margin: 5vh 0;
+    padding: 25px 0;
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color:rgba(248, 191, 85, 0.514);
+}
+
+#confirmation img {
+    width: 30vw;
+    max-width: 170px;
+}
+
+#confirmation h1 {
+    font-size: 28px;
+    font-family: 'Darker Grotesque';
+    line-height: 32px;
+    font-weight: 500;
+    color: rgb(49, 49, 49);
+    padding: 20px;
+}
+
+    
+#confirmation a {
+    border: 1px solid rgba(122, 121, 121, 0.61);
+    padding: 15px;
+    width: 40vw;
+    margin-top: 3vh;
+    font-family: 'Quicksand', cursive;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(71, 67, 67);
+    transition: 400ms;
+}
+
+#confirmation a:hover {
+    border-radius: 30px;
+}

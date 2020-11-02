@@ -71,7 +71,7 @@
 
 #contact-form fieldset #user-message {
     height: 150px;
-    resize: none;
+    resize: vertical;
     font-size: 18px;
     color: rgba(63, 63, 63, 0.712);
     font-family: 'Quicksand',cursive;

@@ -1,0 +1,20 @@
+@media (min-width: 740px) {
+    #confirmation {
+        background: rgb(255,255,255);
+        background: linear-gradient(360deg, rgba(255,255,255,1) 0%, rgba(255, 207, 64, 0.562) 74%, rgba(235, 196, 41, 0.377) 100%);
+    }
+    
+    #confirmation img {
+        width: 15vw;
+    }
+    
+    #confirmation h1 {
+        font-size: 38px;
+    }
+
+    #confirmation a {
+        width: 170px;
+        margin-top: 12vh;
+    }
+
+}

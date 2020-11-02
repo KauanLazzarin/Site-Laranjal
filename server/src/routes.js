@@ -22,6 +22,10 @@ server.get('/about', (req, res) => {
     return res.render('about.html');
 });
 
+server.get('/confirmation', (req,res) => {
+    return res.render('confirmation-page.html')
+})
+
 server.post('/contact', controller.createSchedule);
 
 module.exports = server
